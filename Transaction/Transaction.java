@@ -1,4 +1,9 @@
+package Transaction;
 import java.util.Date;
+
+import Transaction.TransactionJavaFXclasses.AccountType;
+import Transaction.TransactionJavaFXclasses.Frequency;
+import Transaction.TransactionJavaFXclasses.TransactionType;
 
 public class Transaction {
     private int transactionID;

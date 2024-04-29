@@ -1,3 +1,4 @@
+package User;
 import java.util.Date;
 
 public class User {

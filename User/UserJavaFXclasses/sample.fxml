@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane fx:controller="UserController" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <RowConstraints vgrow="ALWAYS"/>
+    <ColumnConstraints hgrow="ALWAYS"/>
+    <children>
+        <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <!-- Other labels and text fields for other user properties -->
+        <Button text="Create User" onAction="#createUser" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+        <Button text="Update User" onAction="#updateUser" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+        <Button text="Delete User" onAction="#deleteUser" GridPane.columnIndex="2" GridPane.rowIndex="4"/>
+    </children>
+</GridPane>

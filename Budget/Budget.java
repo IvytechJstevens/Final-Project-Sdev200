@@ -1,3 +1,4 @@
+package Budget;
 import java.util.Date;
 
 public class Budget {
